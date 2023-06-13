@@ -1,0 +1,313 @@
+Year ,Author ,Paper name ,citation,Domain,Dataset ,Journal ,Conference,Method  and keywords ,Limitations,Advantages
+2015,"Hall D, McCool C, Dayoub F, Sunderhauf N, Upcroft ",Evaluation of features for leaf classification in challenging conditions,125,DL,FLAVIA,ELS,IE,,less images were used for experimentation  ,"Compared to the classic ConNet, the hybrid technique produced more accurate results.
+On average throughout all tests, they received 5.7%."
+2015,Choi S. ,Plant Identification with Deep Convolutional Neural Network,61,DL,LIFECELF,CLEF,,Fine tuning from GoogLeNet  (1) Borda-fuse method (2) Majority voting based method,NAresults were 20% worse than other contestants. result was 20% worse than the befrore result explained mainly by the absence of plant specific strategies in pipeline.,NA
+2015,"Rejeb Sfar A, Boujemaa N, Geman D",Identification of plants from multiple images and botanical idkeys,12,DL,LIFECELF,H,o,ID Keys,The dataset consist of only uncluttered images the work should be done on explored dataset,Achieved accuracy of almost 100%.
+2015,"Reyes AK, Caicedo JC, Camargo JE",Fine-tuning Deep Convolutional Networks for Plant Recognition.,229,DL,LIFECELF,CLEF,,CNN,the matcher algorithm increased it accuracy after 2 stages and on particular plant species only,"With the aid of a colour histogram, they saw an increase of 4% in computed outcomes compared to other approaches. "
+2015,"Simonyan K, Zisserman A",Very deep convolutional networks for large-scale image recognition,102800,DL,ILSVRC,H,o,CNN,very large data set( 1.4 M images ) was used by authors for experiment .,"the main advantage is that , their results were better as compared to that of ILSVRC-2013 without use of  less scales  and  any resolution enhancement    techniques "
+2015,"Pape JM, Klukas C",histogram-based segmentation and leaf detection for rosette plants,101,ML,Private ,CLER,SP,3-D histogram,The main limitation is that the dataset had images without proper settings.,". For photos that aren't too dissimilar from the training data, the calculation of colour cubes in the L*a*b* colour space has proven to be a very effective foundation for foreground/background separation. The system was more effective when the leaf centre points were located using a distance map and the leaf segments were divided using split line calculations."
+2015,"Jeon WS, Rhee SY. ",Plant leaf recognition using a convolution neural network.,158,ML,FLAVIA ,ELS,,": K-NN, Colour Histogram",NA,NA
+2016,"Zhang C, Zhang S, Fang W",Plant leaf recognition through local discriminative tangent space alignment,5,ML,"ICL,SWEDISH",H,,LDTSA,very less feature extraction and classification method were used  ,worked on geometric and discriminative information  as well which enhanced  the accuracy rate .
+2016,"Sladojevic S, Arsenovic M, Anderla A, Culibrk D, Stefanovic D",Deep neural networks based recognition of plant diseases by leaf image classification.,1461,DL,Private ,H,,CNN,dropout layer  increased training time 2-3 times comparing to a standard neural network of the exact architecture,"results were achieved with exceedingly reduced loss, but after the 60th iteration."
+2016,"Lee SH, Chang YL, Chan CS, Remagnino P",Plant Identification System based on a Convolutional Neural Network for the LifeClef 2016 Plant Classification Task,41,DL,ImageNet 2012 data set. And PlantClef2015.,CLEF,,CNN,NA,NA
+2016,"Mzoughi O, Yahiaoui I, Boujemaa N, Zagrouba E. ",Semantic-based automatic structuring of leaf images for advanced plant species identification,20,DL,ILSVRC-2012 ,SP,,KNN,NA,divided the features  into several categories which leads to categorization of leaves vey effectively
+2016,"Keni ND, Ahmed R. ",Neural networks based leaf identification using shape and structural decomposition,8,DL,FLAVIA ,,IE,ANN,"After increasing the regularization parameter, both training and test set accuracies had begun to decrease. Thus, the parameter was set to a value to obtain the highest test accuracy.",The shallow network followed by the RBF Network and Deep Belief Network (DBN) extracted more features.
+2016,"Mehdipour Ghazi M, Yan?ko?lu B, Aptoula E",Open-set plant identification using an ensemble of deep convolutional neural networks,24,DL,: ILSVRC 2012 LifeCLEF 2015,CLEF,,VGGNet and GoogLeNet,NA,NA
+2016,"Ren S, He K, Girshick R, Sun J",Faster r-cnn: Towards real-time object detection with region proposal networks,59597,DL,IE,H,,Faster R-CNN ,Training time was increased by 2–3 times and was compared to a standard neural network of the exact architecture,The results were improved after the 60th iteration
+2016,"Xiao Q, Li G, Xie L, Chen Q.",Real-world plant species identification based on deep convolutional neural networks and visual attention. ,23,DL,Plant CLEF,ELS,,CNN : ResNet50 and Inception v3 tools.,NA,NA
+2016,". Grinblat GL, Uzal LC, Larese MG, Granitto PM",Deep learning for plant identification using vein morphological patterns,554,DL,INTA,ELS,,CNN,The work can also be explored using other parameters. ,AC expected more differences in the intra- and inter-class species at different times.
+2016,". Wu H, Liu J, Li P, Wen Z. ",Leaf recognition based on binary Gabor pattern and extreme learning machine. ,5,ML,Private ,SP,,"RISC, BGP, BGP+SVM, BGP+ELM.",NA,NA
+2016,"Pushpa BR, Anand C, Nambiar PM", Ayurvedic plant species recognition using statistical parameters on leaf images. ,45,ML,Private ,O,,": standard deviation, Isoperimetric quotient, Entropy, Eccentricity","The system is quite compact and has low computational complexity. The work can also be used to explore other features of leaves such as color, view, size, etc., rather than the shape alone","They worked on 4 main datasets and did experimentation on the MPEG-7 shape dataset. They worked on N and M shape parameters as and after applying multiclass parameters, they achieved the enhanced results."
+2017,"Šulc M, Matas J",Fine-grained recognition of plants from images.,50,DL,Private ,o,,"Ffirst ,CNN",NA,NA
+2017,"Barré P, Stöver BC, Müller KF, Steinhage V. ",LeafNet: A computer vision system for automatic plant species identification.,239,DL,LEAFSNAP,ELS,,CNN,The results were degraded when the data set was increased after decreasing the dataset images.,"The selected venation feature, which extracted more features and eliminated human efforts of preprocessing the data on other parameters."
+2017,"Lee SH, Chan CS, Mayo SJ, Remagnino P",How deep learning extracts and learns leaf features for plant classification. Pattern Recognition.,470,DL,PlantClef2015,ELS,,"CNN,DN De-convolutional Network (DN),MLP,SVM ","Texture ,contour, Colour features were not used in study ","The main advantage is that rather than using traditional features of leaf they worked on discriminating features ie. Shape+ venetian  
+Following are some advantages of this approach 
+ (1) Different orders of venation were  the best representative features compared to those of outline shape.
+ (2) They observed multi-level representation in leaf data, demonstrating the hierarchical transformation of features from lower-level to higher-level abstraction, corresponding to species classes.
+"
+2017,"Kumar M, Gupta S, Gao XZ, Singh A. ",Plant Species Recognition Using Morphological Features and  Adaptive Boosting Methodology,59,ML,FLAVIA,IE,,"k-NN, decision tree, and multilayer perceptron classifier, The AdaBoost MLP",NA,"Comparing MLP and Adaboost_MLP, it was found that Adaboost_MLP had a somewhat higher accuracy than MLP. It has been noted that the AdaBoost algorithm combined with a 5-fold MLP classifier allowed for a maximum accuracy of 95.40 percent. "
+2017,"Zhang S, Zhang C, Zhu Y, You Z",Discriminant WSRC for large-scale plant species recognition,8,ML,ICL,H,,A discriminant  weighted  sparse representation based classification .DWSRC,"The recognition rate of WSRC was higher than LMS, MMD, and CCD, but its computational timewas the longest","For broad-scale plant species recognition, DWSRC was reasonable. To solve the SR problem and identify the test samples, DWSRC only used the candidate similar class, and it makes use of the similarity relationship between each test sample and each training sample. As a result, the computational cost was dramatically decreased and the adverse effects of noise, modelling error, and outliers on identification performance were greatly mitigated."
+2017,"Chaudhury A, Ward C, Talasaz A, Ivanov AG, Brophy M, Grodzinski B, Hüner NP, Patel RV, ",Machine vision system for 3D plant phenotyping. IEEE/ACM transactions on computational biology and bioinformatics.,70,CV,Private ,O,,?-Shape Triangulation,"It was noted that no communication occurred between the robot, chamber, and scanner during the experiment. They have run across a number of issues in integrating the robot, chamber, scanner, etc. Throughout the life of the plant, the robot and the chamber had to communicate frequently (every 4 hours because they were carrying out 6 scans each day), which created problems with lost communication due to network failure and infrequent hardware faults (such as issues with electronic chips at robot joints, etc.).
+
+
+","In obstructed leafy areas, the junction recognition system also identified incorrect feature points as junctions. Density-based clustering was used to solve this issue by filtering out the remaining feature points and extracting the genuine connections."
+2017,"Weiss U, Biber P, Laible S, Bohlmann K, Zell A",Plant species classification using a 3D LIDAR sensor and machine learning.,78,DL,Private ,IE,,"logistic regression functions, support vector machines and neuronal networks",NA,NA
+2017,"Begue A, Kowlessur V, Singh U, Mahomoodally F, Pudaruth S",Automatic recognition of medicinal plants using machine learning techniques. ,71,DL,Private ,ELS,,"k-nearest neighbour, naïve Bayes, support vector machines and neural networks.","Due to high values of diagonal lines two leaves, i.e., bitter gourd and coriander leaves are misclassified to each other.","They did the classification based on the KNN, SVM, and RF, and received better feature enhancement with the RF."
+2017,"Kan HX, Jin L, Zhou FL",Classification of medicinal plant leaf image based on multi-feature extraction,74,DL,Private ,SP,,"CNN,SVM","Pre-processing was required for data images, which is time-consuming.","
+SF, TF and SVM were found to be superior in case of recognition and time.
+"
+2017,"Beghin T, Cope JS, Remagnino P, Barman S",Shape and texture based plant leaf classification,177,ML,Private ,,SP,contour signature method,NA,NA
+2017,"Rao A, Kulkarni SB. ",An improved technique of plant leaf classificaion using hybrid feature modeling,3,ML,Private ,CLER,IE,SIFT feature and Deep Neural Network,NA,NA
+2018,"Gonçalves FM, Guilherme IR, Pedronette DC",Semantic guided interactive image retrieval for plant identification. Expert Systems with Applications,19,ML,Oxford Flowers ,ELS,,Semantic Interactive Image Retrieval (SIIR) – (Auto Color Correlation (ACC) + Border/Interior Pixel Classification (BIC) + CNN-Caffe + Speeded Up Robust Features(SURF) ),"This approach may reduce image retrieval effectiveness if the user inputs the wrong answer. They have used angiosperm family Dataset rather than angiosperm species, as species database provides specific attributes, which result in more and accurate feature extraction.",This approach may be helpful to reduce the user effort for the recognition of species. They provided an ontology-based feature for user’s doubt clarification regarding species
+2018,"Olsen A, Konovalov DA, Philippa B, Ridd P, Wood JC, Johns J, Banks W, Girgenti B, Kenny O, Whinney J, Calvert B",DeepWeeds: A multiclass weed species image dataset for deep learning. Scientific reports.,231,DL,Private ,O,,Inception-v3 and ResNet-50. ,NA,NA
+2018,"Chaudhury A, Barron JL.",Plant Species Identification from Occluded Leaf Images. IEEE/ACM transactions on computational biology and bioinformatics,22,IP,"Flavia ,leafsnap ,swedish ",CPEW,IE,"Discrete Contour Evolution (DCE) algorithm, Partial contour matching, optimization "," If occlusion of leaves is high it was difficult to distinguish the leaves species.
+ The accuracy rate could had been increased if leaf texture was added with contour information.
+The compound leaves or closely related species leaves were not used in the approach. 
+",The main advantage of this approach is   they matched an occluded contour with all full contours in database
+2018,"Miao Z, Gaynor KM, Wang J, Liu Z, Muellerklein O, Norouzzadeh MS, McInturff A, Bowie RC, Nathan R, Stella XY, Getz WM.",Insights and approaches using deep learning to classify wildlife. Scientific reports,90,DL,Private ,o,,"Convolutional Neural Network (CNN) VGG-16 a ResNet-50 CNN, GG-CAM) ",the misclassification is observed in images correctly when the distinct features of the species were obscured or multiple species were in the same scenes.,Even from the images of deferent inter species animal system correctly recognised the species of that particular animal due to GG-CAM a hybrid approach.
+2018,"Zhang K, Wu Q, Liu A, Meng X",Can deep learning identify tomato leaf disease,175,DL,Private ,H,,"Stochastic Gradient Descent (SGD), Adam optimization AlexNet, GoogLeNet, and ResNet ",One of the segmentation methods of Short Boundary Detection (SBD) performed worse when compared to other methods.,NA
+2018,"Zhang S, Zhang C, Huang W",Integrating leaf and flower by local discriminant CCA for plant species recognition,6,DL,Private ,ELS,,modified local discriminant canonical correlation analysis (MLDCCA,"For the same leaf feature, results were iterated several times to improve it.","Features were fused by Score level fusion and applied 1 NN on MLDCCA, which enhanced the feature extraction and classification process."
+2018,"Bhargava A, Bansal A.", Fruits and vegetables quality evaluation using computer vision: A review.,373,ML,Private ,ELS,,"SVM,Gabor filters , K-NN, SVM BPNN Classifier Color features + GLCM, GCH, LBP, CLBP, GCH, CCV",database sources and detail description was not added in this study ,"various method of both machine learning and deep learning .they worked on shape size ,texture ,colour healthy and unhealthy fruits or veggies "
+2018,"Liang WJ, Zhang H, Zhang GF, Cao HX",Rice blast disease recognition using a deep convolutional neural network. ,166,DL,Private ,O,,CNN ,,
+2018,"Dias PA, Tabb A, Medeiros H. ",Apple flower detection using deep convolutional networks. Computers in Industry,178,DL,Private ,ELS,,": Fine trained CNN , simple linear iterative clustering SLIC, SVM",Fewer features were identified in both the organs commonly,"They compared the optimal CNN model against the original, blurred, and mean padded background image datasets."
+2018,"Krizhevsky A, Sutskever I, Hinton GE.",Imagenet classification with deep convolutional neural networks. Communications,133388,DL,on ImageNet ,CLEA,IE,"CNN ,ReLU",NA,NA
+2018,"Kumar N, Belhumeur PN, Biswas A, Jacobs DW, Kress WJ, Lopez IC, Soares JV.",Leafsnap: A computer vision system for automatic plant species identification. InEuropean conference on computer vision ,961,CV,"Swedish leaf , Flavia dataset ImageCLEF11 and ImageCLEF12 leaf Leafsnap dataset  ICL dataset Oxford Flower",ELS,,"1NN,KNN ,SVM ,CNN, Fuzzy –KNN.",NA,NA
+2018,"Barmpoutis P, Dimitropoulos K, Barboutis I, Grammalidis N, Lefakis P",Wood species recognition through multidimensional texture analysis,62,DL,Private ,ELS,,"CNN,SVM",The computational time increased by identifying the differences in attention cropping and preprocessing of images.,They have used cross-section radial and tangible and descriptor images.
+2018,"Salve P, Yannawar P, Sardesai M.",Multimodal plant recognition through hybrid feature fusion technique using imaging and non-imaging hyper-spectral data. ,18,ML,VI Leaf 60 ,ELS,,"SIFT,SFTA and SIFT+SFTA.",NA,NA
+2018,"Wei XS, Xie CW, Wu J, Shen C",Localizing parts and selecting descriptors for fine-grained bird species categorization,267,DL,CUB 200-2011 ,ELS,,a novel Mask-CNN model without the fully connected layers,"The matcher algorithm increased its accuracy after 2 stages and on the plant species, particularly.",They got a hike of 4% on the calculated results as compared to other methods with the help of a color histogram.
+2018,"Sharma N, Jain V, Mishra A", An analysis of convolutional neural networks for image classification,454,DL,CIFAR- 100 ,ELS,,AlexNet GoogLeNet ResNet50,this model did not work well for train and street car  gave only accuracy of 25%.,"they did the experimentation on 3 datasets and compared the result with pre trained networks as AlexNet ,GoogLeNet ,ResNet50.after comparison they got better results than other methods "
+2018,"Zhu X, Zhu M, Ren H",Method of plant leaf recognition based on improved deep convolutional neural network.,84,DL,Private ,ELS,,"Inception V2, batch normalization (BN)",NA,the accuracy was better than faster RCNN
+2018,"Liakos KG, Busato P, Moshou D, Pearson S, Bochtis D",Machine learning in agriculture: A review. Sensors. ,2,ML,Private ,O,,"Regression Clustering,  Bayesian Models,   Instance Based Models, Decision Trees, ANN Support Vector Machines , Ensemble Learning.",NA,NA
+2018,"Krause J, Sugita G, Baek K, Lim L",WTPlant (What's That Plant?) A Deep Learning System for Identifying Plants in Natural Images.,14,ML,Private ,O,,"WTPlant, CNN, watershed, Grab cut.",WTPlant took an average of 20 seconds to analyse each image which may be time consuming.,they have combined two CNN AlexNet and DL architecture due tofusion got better result on top 1 accuracy which are better than CNN trained using NB and Random crop approach 
+2018,Morris D,A pyramid CNN for dense-leaves segmentation,37,DL,Private ,CLER,IE, pyramid convolutional neural network,NA,Real life MSU Dense-Leaves dataset was proposed and trained using PCNN
+2018,"Xiao Q, Li G, Xie L, Chen Q",Real-world plant species identification based on deep convolutional neural networks and visual attention. ,23,DL,Plant CLEF  ,ELS,,"ResNet50 without AC , Inception v3 without AC, ResNet50 with AC , Inception v3 with AC.",The result could have been improved using data augmentation through affine transformations and the use of external datasets.,AC expected more differences in the intra- and inter-class species at different times.
+2019,"Manasa N, Herur P, Shetty P, Prarthana N, Venkatrao P. ",Plant Recognition using Watershed and Convolutional Neural Network.,3,DL,Private ,CLER,IE,"Marker based watershed algorithm ,CNN.",multifeature extraction should be done for improving the results,"they did the work on overlapping leaves form background for which  they have used the Watershed Algorithm to separate a single leaf from other overlapping leaves. The images were resized to 227 x 227 x 3 and fed into the network, which got the noticeable difference between betel and Pepper Leaves  even though they are same in appearance "
+2019,"Krause J, Baek K, Lim L. A ",guided multi-scale categorization of plant species in natural images,9,DL,: BJFU100  and the UHManoa100 ,CLEN,IE,CNN,"The used inception model performed  worse, potentially due to the overfitting problem. In that case, the use of pre-trained models and larger augmented data may improve the accuracy","WTPlant v2.0 performed  the best, indicating that the guided multi-scale approach improved the performance of all tested CNNs significantly.
+accuracy was increased by  5.4%  over random cropping for data generation .
+"
+2019,"Alsaedi N, Alahmadi H, Syed L.",Desert Plants Recognition by Bark Texture.,,DL,Private ,CLER,IE,CNN,NA,NA
+2019,"Azeez YR, Rajapakse C. ",An Application of Transfer Learning Techniques in Identifying Herbal Plants in Sri Lanka,5,DL,Private ,CLER,IE,"CNN: Resnet, Inception –V3,Resnet v2",the main limitation is that they have trained  only classification part  and skipped feature extraction ,NA
+2019,"Bandara M, Ranathunga L",Texture dominant approach for identifying ayurveda herbal species using flowers.,4,DL,Private ,H,IE,"SVM, Decision Trees and K-NN.",The work was done on few features of flowes as texture and colours ,SVM had highest accuracy with Gabor textures and Tamura textures even though it has least accuracy with Haralick textures. KNN classifiers have relatively good accuracy with all the features while Decision Tree classifiers have the least
+2019,"Huang YP, Basanta H. ",Bird image retrieval and recognition using a deep learning platform,42,DL,Private ,,IE,CNN,NA,NA
+2019,"Li N, Zhang X, Zhang C, Guo H, Sun Z, Wu X. ",Real-time crop recognition in transplanted fields with prominent weed growth: a visual-attention-based approach,23,DL,MSRA-B ,GRO,IE,CNN,image acquisition techniques was used by authors which were more complex .this can also be done by apps available ., they have generated their own dataset which gave yield of 97% accuracy also they did work on the dataset  MSRA-B. with goo results 
+2019,"Kumar M, Gupta S, Gao XZ, Singh A. ",Plant Species Recognition Using Morphological Features and Adaptive Boosting Methodology.,59,DL,FLAVIA,CLEF,IE,"K-NN,Adaboosting ",NA,NA
+2019,"Goyal N, Gupta K, Kumar N",Multiclass twin support vector machine for plant species identification.,11,DL,FLAVIA,SP,,Multiclass Twin Support Vector Machine,NA,NA
+2019,"Bojamma AM, Shastry C. ",A study on the machine learning techniques for automated plant species identification: current trends and challenges,12,ML,"Flavia ,Swedish and  Acer dataset ",SP,,ANN,NA,NA
+2019,Zarrin I,Leaf Based Trees Identification Using Convolutional Neural Network. ,13,DL,Private ,CLER,IE,CNN,the work could be extended for more no of trees (species )with same images count ,:  own dataset was created which improved the accuracy up to  99.40%
+2019,"Teja Kattenborn*, Jana Eichel & Fabian Ewald Fassnacht","Convolutional Neural Networks enable efcient, accurate and fnegrained segmentation of plant species and communities from high-resolution UAV imagery",,CV,"Swedish leaf , Flavia dataset ImageCLEF11 and ImageCLEF12 leaf Leafsnap dataset  ICL dataset Oxford Flower 17 and 102 dataset .",O,,CNN-based segmentation approach (U-net),the work can also be explored with wide varieties of trees rather than sticking to few. ,the mian advantage is that the presented approach is compatible with low-cost UAV systems that are easy to operate and thus applicable to a wide range of users.
+2019,"Kazerouni MF, Saeed NT, Kuhnert KD",Exploration of Autonomous Mobile Robots through Challenging Outdoor Environments for Natural Plant Recognition Using Deep Neural Network,2,DL,Private ,CLER,IE,CNN,NA,NA
+2019,"Kheirkhah FM, Asghari H",Plant leaf classification using GIST texture features. IET Computer Vision,42,DL,"IMAGECLEF12 ,leafsnap,Flavia ",CLEF,,"PCA algorithm , cosine KNN classifer ",NA,NA
+2019,"Li X, Wang H, Li X, Tang Z, Liu H",Identifying Degraded Grass Species in Inner Mongolia Based on Measured Hyperspectral Data,9,ML,Private ,CLER,IE,": principal component analysis (PCA), confidence interval mean difference method (CIMDM)","The recognition of a few species, such as Leymus Chinensis, Allium Ramosuml., and Stipa Grandis, was poor.","They have collected the images of grass during different stages, such as squaring, heading, leaf growth, and the mature phase. This is useful for the identification and degradation of large-scale grass species monitoring using hyperspectral remote sensing imagery."
+2019,"Manasa N, Herur P, Shetty P, Prarthana N, Venkatrao P. ",Plant Recognition using Watershed and Convolutional Neural Network,3,DL,Private ,CLER,IE,"Watershed algorithm ,CNN",NA,NA
+2019,"Pacifico L, Britto L, Oliveira E, Ludermir T. ",Automatic Classification of Medicinal Plant Species Based on Color and Texture Features,24,DL,Plant Village ,CLEI,IE,"Decision Tree classifier (DT), K-Nearest Neighbors (KNN, w Weighted K-Nearest Neighbors (WKNN Random Forest Classifier (RFC) , Multi-Layer Perceptron trained with Backpropagation algorithm (MLP-BP).","only colour and  shape feature were extracted which could be extended to venetation ,Contour and leaf tooth features .",NA
+2019,"Pallagani V, Khandelwal V, Chandra B, Udutalapally V, Das D, Mohanty SP",dCrop: A Deep-Learning based Framework for Accurate Prediction of Diseases of Crops in Smart Agriculture,48,DL,Plant Village ,CLEI,IE,"ResNet 50, ResNet 34 and AlexNet ",the main language of app was English in proposed system which may create a problem while interfacing  with farmer as user  ,The app empowers any individual with a smartphone to help protect their crops
+2019,"Quan L, Feng H, Lv Y, Wang Q, Zhang C, Liu J, Yuan Z.", Maize seedling detection under different growth stages and complex field environments based on an improved Faster R–CNN. Biosystems Engineering. 2019 Aug 1;184:1-23.,87,DL,Private ,ELS,,ReCNN,NA,NA
+2019,"Raja R, Slaughter DC, Fennimore SA, Nguyen TT, Vuong VL, Sinha N, Tourte L, Smith RF, Siemens MC.", Crop signalling: A novel crop recognition technique for robotic weed control. biosystems engineering. 2019 Nov 1;187:278-91.,30,CV,Private ,ELS,,crop signalling technique,NA,"The crop/weed differentiation was thus effective, fast, reliable, and commercialisation of robotic weed control using the technique may be feasible.  The methods have very low false positive error rate"
+2019,"Swetha V, Jayaram R. ",A Novel Method for Plant Leaf Malady Recognition using Machine Learning Classifiers,4,ML,Plant Village,CLEI,IE,"Histogram of Oriented Gradient (HOG) , Random Forests",NA,NA
+2019,"Santhosh S, Zulfath AF, Gokilavani B, Madhuvanthi S, Guruprasath G, Karthick M. ",Classification of Leaf Images for Species Identification,2,DL,Private ,CLER,IE,SVM,NA,"High accuracy and less generalize leads to over fitting the model and cross validation tried to avoid it by taking training and test data in each fold.
+The kernel parameters were chosen and adjusted for reducing the error in the classification and to get better curve fit. The best soft margin parameter C and the hard margin parameter ? values were chosen by K- fold cross validation which used both the train and test data in each fold for balancing the trade off between the generalization and the accuracy.
+"
+2019,"Rauf HT, Lali MI, Zahoor S, Shah SZ, Rehman AU, Bukhari SA", Visual features based automated identification of fish species using deep convolutional neural networks. Computers and Electronics in Agriculture. 2019 Dec 1;167:105075.,86,DL,Private ,ELS,,CNN,NA,NA
+2019,Sivaranjani.C,Real-Time Identification of Medicinal Plants using Machine Learning Techniques,8,ML,Private ,CLER,IE,Logistic Regression ,NA,NA
+2019,Ding Min Yue,Plant Leaf Recognition Based on Naive Bayesian Classification and Linear Discriminant Analysis Model,6,DL,Private ,CLER,IE,"naive Bayesian classification, linear discriminant analysis model",they have worked only on shape and edge features of leaf.,"the main advantage is that, system could  quickly and accurately identify the leaf category and had strong applicability"
+2019,"Shanwen Zhanga,?
+, Wenzhun Huanga
+, Yu-an Huanga,b
+, Chuanlei Zhang",Plant species recognition methods using leaf image: Overview,34,DL,"leafsnap
+Flavia
+,ICL leaf dataset
+Image CLEF, Life CLEF, Plant CLEF
+",ELS,,"Subspace learning, Sparse Representation , and CNN ,Feature extraction using Machine learning ",NA,"all the databases  and related algorithm such as for shape, texture, colour ,feature fusion were studied "
+2019,"Haixi Zhanga
+, Zhenzhong Kuang b
+, Xianlin Penga
+, Guiqing Hea
+, Jinye Penga,?
+, Jianping Fan","Aggregating diverse deep attention networks for large-scale plant
+species identification",9,DL,iNaturalist2018,ELS,,an attention based deep hierarchical multitask learning (AHMTL) algorithm,NA,They have proposed a fusion method which increased the results and efficiency coampred to other single methods 
+2019,"Youxiang Zhua
+, Weiming Suna
+, Xiangying Caoa
+, Chunyan Wanga
+, Dongyang Wua
+,
+Yin Yang b
+, Ning Yea,?","TA-CNN: Two-way attention models in deep convolutional neural
+network for plant recognition",53,DL,Malayakew and ICL ,ELS,,family first model  + max-sum attention CNNs,NA,they have proposed a new concept of  family first model with  family labels which increased the accuracy 
+2019,"Tatsuhiro Akiyama?
+, Yosuke Kobayashi?
+, Yuichi Sasaki†
+, Kaori Sasaki†
+, Takashi Kawaguchi†
+and Jay Kishigami?","Mobile Leaf Identification System using CNN
+applied to plants in Hokkaido",,DL,Private ,CLER,IE,"VGG19, MobileNet, and MobileNetV2",NA,NA
+2019,"Aydin Kayaa,?
+, Ali Seydi Kecelia
+, Cagatay Catalb
+, Hamdi Yalin Yalica
+, Huseyin Temucina
+,
+Bedir Tekinerdoganb","Analysis of transfer learning for deep neural network based plant
+classification models",326,DL,Flavia,ELS,,"cross-dataset fine-tuning of the CNN model , CNN-RNN","This method provided close but not the best results in many of the datasets, except UCI Leaf.",they have used wide variety of  images for experiments 
+2019,"Teja Kattenborn*, Jana Eichel & Fabian Ewald Fassnacht","Convolutional Neural Networks
+enable efcient, accurate and fnegrained segmentation of plant
+species and communities from
+high-resolution UAV imagery",,ML,Pinus radiata and Ulex europaeus ,O,,"UAV-based RGB aerial imagery ,CNN based segmentation .",NA,NA
+2019,"Anh H. Vo, Hoa T. Dang, Bao T. Nguyen, and Van-Huy Pham
+",Vietnamese Herbal Plant Recognition Using Deep Convolutional Features,23,DL,Private ,O,,"LightGBM,CNN",NA,"they have used customised dataset of Vietnam medicinal plants or herbs for which they did cleaning of dataset, cropping and other pre-processing activities.."
+2019,"Anubha Pearline Sundara Sobitha Raj1
+, Sathiesh Kumar Vajravelu1",DDLA: dual deep learning architecture for classification of plant species,,ML,"Flavia, Folio, and Swedish Leaf) and custom collected (Leaf-12) ",O,,"DDLA?+?LR ,MobileNet and DenseNet-121 , linear discriminant analysis, multinomial logistic regression (LR), Naive Bayes, classification and regression tree, k-nearest neighbour, random forest classifier, bagging classifier and multi-layer perceptron","When the DenseNet121 + Fully Connected Layer (FCL) was used, it took more time when compared to that of the other methods and also resulted in a little misclassification.",DDLA?+?LR architecture produced higher results when compared with the individual architectures having an LR classifier.
+2019,"G. Saleema
+, M. Akhtarb
+, N. Ahmedc
+, W.S. Qureshid,",Automated analysis of visual leaf shape features for plant classification,101,DL,Private ,ELS,,KNN,"Only the Flavia dataset was used, but the work can also be explored with other datasets as well.","They have compared the classification methods as KNN, NB, DT and Multi-SVM. They achieved good result in case of KNN."
+2020,"Seyed Iman Saedi a,?
+, Hossein Khosravi b","A deep neural network approach towards real-time on-branch fruit
+recognition for precision horticulture",42,DL,Private ,ELS,,deep CNN,The method was time-consuming due to pre-pressing and augmentation techniques,NA
+2020,"Bin Zhanga,b
+, Lin Zhaoa,b,c,1
+, Xiaoli Zhanga,b,?","Three-dimensional convolutional neural network model for tree species
+classification using airborne hyperspectral images",107,DL,Private ,ELS,,"Random Forest Feature Screening ,3D CNN.",NA,NA
+2020,"Mahmoud Al-Sarayreha,b,?
+, Marlon M. Reisb,??, Wei Qi Yana
+, Reinhard Klette","Potential of deep learning and snapshot hyperspectral imaging for
+classification of species in meat",65,DL,Private ,ELS,,3D-CNN,"They had a low number of training samples, and it was used with much higher capacity, which decreased the performance for some of the fruits (sour fruits).","Considering the prediction time taken, the model performed very well. For example, it was 20 times faster than ResNet50 and 43 times faster than ResNet152. It could process 64 frames per second."
+2020,Ayan Chaudhury and John L. Barron,"Plant Species Identification from
+Occluded Leaf Images",22,,  Swedish ,,IE,"Discrete Contour Evolution (DCE) algorithm
+3. Dataset name:  
+",NA,NA
+2020,"Ashkan Banana , Amin Nasirib , Amin Taheri-Garavand",Deep learning-based appearance features extraction for automated carp species identification,167,DL, ImageNet,ELS,,"CNN, VGG16",NA,NA
+2020,"Risab Biswas*, Avirup Basu, Abhishek Nandy,","Identification of Pathological Disease in Plants
+using Deep Neural Networks - Powered by
+Intel® Distribution of OpenVINO™ Toolkit ",7,ML,"Blister Blight of Tea (Family: Theaceae) 2. Citrus Canker (happens in citrus plants, Family: Rutaceae) 3. Early Blight (happens in tomato, potato and egg plant, Family: Solanaceae) 4. Late Blight (happens in tomato, potato and egg plant, Family: Solanaceae) 5. Powdery Mildew ",,IE,Deep Neural Networks,NA,NA
+2020,"Philomina Simon1
+, Uma V2",Deep Learning based Feature Extraction for Texture Classification,31,DL,"KTH_TIPS
+CURET
+",ELS,,"AlexNet, VGG19, Inception, InceptionResNetV3,ResNet and DenseNet201, Support vector machine",Few models took up more time for execution compared to all the other pre-trained models. Inception-ResNetv2 took more execution time than all the other pre-trained models.,Result analysis showed that CNN could be considered as a very good feature extractor.  It is also better than the hand-crafted features. SVM also shows optimal performance for texture classification.
+2020,"Matheus Pinheiro Ferreiraa,?
+, Danilo Roberti Alves de Almeidab
+, Daniel de Almeida Papac
+,
+Juliano Baldez Silva Minervinod
+, Hudson Franklin Pessoa Verase
+, Arthur Formighierid
+,
+Caio Alexandre Nascimento Santosc
+, Marcio Aurélio Dantas Ferreiraf
+,
+Evandro Orfanó Figueiredoc
+, Evandro José Linhares Ferreira","Individual tree detection and species classification of Amazonian palms
+using UAV images and deep learning",86,DL,Private ,ELS,,"fully convolutional neural network , ",They were misclassified between Butyracea and non-identified palms >18%.,They have collected real images of the forest and have processed the Unmanned Aerial Vehicles (UAV)-borne images and deep learning to classify multiple palm species at the ITC level in the Amazonian forests.
+2020,Pralhad Gavali,Bird Species Identification using Deep Learning on GPU platform,27,DL,Caltech-UCSD. Caltech-UCSD Birds 200(CUB- 200- 2011),,EL,Deep Convolutional Neural Networks,"They had a low number of training samples, and it was used with much higher capacity, which decreased the performance for some of the fruits (sour fruits).","Considering the prediction time taken, the model performed very well. For example, it was 20 times faster than ResNet50 and 43 times faster than ResNet152. It could process 64 frames per second."
+2020,Jenatte Hariharan,"The Basis for Development of a Foundational Biomarker Reflectance Signature Database System for Plant Cell Identification, Disease Detection, and Classification Purposes",1,DL,Private ,,EL,multivariate analysis KLE,NA,NA
+2020,"S. Hernández, J.L. López
+","Uncertainty quantification for plant disease detection using Bayesian deep
+learning",72,ML,Private ,,O,"SGD , MC dropout, SGLD","SGD and MCD tend to produce overconfident and incorrect predictions whose maximum probabilities tended to be larger than their correct counterparts. On the other hand, SGLD produces unsure outcomes for both the correctly and incorrectly classified samples","For MCD and SGLD methods, the uncertainty predictions for each species and training stage were quantified by the Shannon entropy H of the variational predictive distribution. The best predictions were obtained when the MC dropout methods were used."
+2020,"Zhouxin Xi a
+, Chris Hopkinson a,*
+, Stewart B. Rood b
+, Derek R. Peddle a ",See the forest and the trees: Effective machine and deep learning algorithms for wood filtering and tree species classification from terrestrial laser scanning,52,DL& ML,Canadian TLS datasets was funded through the Canada Foundation for Innovation (CFI). ,ELS,,"Deep learning classifiers, namely, VGG, ResNet-50, ResNet-152, Inception-ResNetV2, PointNet, PointNet++, and KdNet were investigated for species classification, and FCN-VGG, ResNet-50, ResNet-152, Inception-ResNet-v2, UNet, DenseNet, PSPNet, Superpoint Graph, and PointCNN for wood classification.",NA,NA
+2020,Baizel Kurian Varghese ,"INFOPLANT: Plant Recognition using
+Convolutional Neural Networks ",10,DL,Private ,,IE,CNN,NA,NA
+2020,"Ahsan Jalala
+, Ahmad Salmana,?
+, Ajmal Mianb
+, Mark Shortisc
+, Faisal Shafaita","Fish detection and species classification in underwater environments using
+deep learning with temporal information",137,DL,"LifeCLEF 2015 benchmark 
+LifeCLEF 2015 : 
+",ELS,,combine optical flow and Gaussian mixture models with YOLO deep neural network,NA,NA
+2020,"Honghua Jianga,1
+, Chuanyin Zhanga,1
+, Yongliang Qiaob,?
+, Zhao Zhangc
+, Wenjing Zhanga
+,
+Changqing Song","CNN feature based graph convolutional network for weed and crop
+recognition in smart farming",109,DL,Private ,ELS,,"Graph Convolutional Network GCN-AlexNet, GCN-VGG16, GCN-ResNet-101",the system is not able to detect the spices when the plants are at their early stages  due to false negative values obtained during experimentation.,The proposed GCN-ResNet-101 approach improved the recognition accuracy of crops and weeds by utilising feature relationships and maximising the efficient use of the limited labelled data. It did this by using the adjacency matrix construction method in the GCN and Euclidean distance based adjacency matrix to compute distances of each two vertices in the graph.
+2020,"Zhiyong Ju, Yongjie Xue",Fish species recognition using an improved AlexNet model ,23,DL,LifeClef2019 fish dataset and QUT fish dataset,ELS,,AlexNet ,NA,NA
+2020,Aravind Krishnaswamy Rangarajan & Raja Purushothaman*,"Disease Classifcation in Eggplant
+Using Pre-trained VGG16 and
+MSVM",120,DL,Private ,N,,Pre-trained VGG16 and Multi-class Support Vector Machine MSVM,NA,NA
+2020,"Sue Han Leea,?
+, Hervé Goëaua,b
+, Pierre Bonneta,b
+, Alexis Joly",New perspectives on plant disease characterization based on deep learning,161,DL,Plant Village ,ELS,,": 1) pre training tasks: the plant specialized domain and general object domain, and the (2) network architectures: VGG16 (16 layers), GoogLeNetBN (34 layers) and InceptionV3 (48 layers)",The work can also be elaborated by using a large number of images. The dataset was restricted to only 300 images.,NA
+2020,Mary Sobha P.G.,"Deep Learning for Plant Species Classification
+Survey",6,DL,"Pl@ntLeaves,folio,Leafsnap,Flavia, PlantVillage , MalayaKew , ImageCLEF 2015 datsets.
+
+",,IE,"studied AlexNet , GoogleNet, VGGNet, ResNet, MobileNet","The Flavia dataset was so refined, which led to a decrease in accuracy using the KNN classifier for a few species.",The proposed method did not require human intervention; it works without rigorous experimental equipment.
+2020,"Bodi Surya Pratap Chandra Kishore a
+, Amit Kumar a,f,**,y
+, Purabi Saikia b,f,*,y
+, Nikhil Lele c
+,
+Arvind Chandra Pandey a
+, Parul Srivastava d,f
+, Bimal Kumar Bhattacharya c
+,
+Mohamed Latif Khan e,f","Major forests and plant species discrimination in Mudumalai
+forest region using airborne hyperspectral sensing",16,DL,AVIRIS-NG imagery: Airborne Visible/Infrared Imaging Spectrometer Next Generation,,O,SVM ,The system utilized relatively more computational power as it involves complex machine learning tools as compared to the conventional computer vision and image processing approaches.,Airborne Visible InfraRed Imaging Spectrometer-Next Generation (AVIRIS-NG) with the SVM classification aid in mapping different land surfaces. They have used Airborne visible images rather than the traditional image dataset.
+2020,"Rama Rao Nidamanuri
+","Hyperspectral discrimination of tea plant varieties using machine learning, and
+spectral matching methods",8,ML,Private ,,O,": k-nearest neighbourhood classifier (k-NN), linear discriminant analysis (LDA), support vector machines (SVM), normalized spectral similarity score (NS3 ), maximum likelihood classifier (MLC), and artificial neural networks (ANNs), non-parametric MANOVA.",NA,NA
+2020,"Noor M. AL-Shakarji‡†?, Yasmin M. Kassim?†?, Kannappan Palaniappan†","Unsupervised Learning Method for Plant and Leaf
+Segmentation
+",19,DL,Private ,,IE,"foreground background segmentation : Expectation Maximization (EM) and K-means, Leaf detection :using watershed and morphological operations.",NA,NA
+2020,"?Denise Pechebovicz, ?Sthefanie Premebida, ?Vinicios Soares, ?Thiago Camargo,","Plants recognition using embedded Convolutional
+Neural Networks on Mobile devices",5,DL,Mobilenet v2 ,,IE,CNN,The classification process can be elaborated by exploring other classifiers.,They have used the hybridization of methods for segmentation and also used the stem link algorithm identified plants species based on the stems. 
+2020,"Kalananthni Pushpanathan1
+ · Marsyita Hanaf1  · Syamsiah Mashohor1  ·
+Wan Fazilah Fazlil Ilahi2",Machine learning in medicinal plants recognition: a review,32,DL,"ImgeCLEF12 –ImageCLEF 17, Flavia, ICL, Swedish, Leafsnap",N,,"Classifer :KNN,ANN,PNN,SGD,SVM,DTLDA,RF",NA,NA
+2020,"Anubha Pearline Sundara Sobitha Raj1
+, Sathiesh Kumar Vajravelu","DDLA: dual deep learning architecture for
+classification of plant spec",32,ML,Machine learning in medicinal plants recognition a review 2020,,IE,"DDLA?+?LR, 3. Dataset name: The dataset considered in the studies was standard (Flavia, Folio, and Swedish Leaf) and custom collected (Leaf-12) dataset.",NA,NA
+2020,"S.Ramya,","Identification of Plant Species by Embedded
+Technology Using MatLab 
+",1,ET,Private ,,IE,": FAST & FREAK Algorithms in Selected Object Tracking, CANNY’S EDGE DETECTION",NA,NA
+2020,"Seyed Iman Saedi a,?
+, Hossein Khosravi b
+","A deep neural network approach towards real-time on-branch fruit
+recognition for precision horticulture",42,DL,Private ,ELS,,"RESNET50,152,VGG11,Darknet 53finrtuned , Darknet 53 trained form scratch",Their proposed model was 20 times faster than the ResNet50 and 43 times faster than ResNet152.,Their proposed model was 20 times faster than the ResNet50 and 43 times faster than ResNet152.
+2020,Siddharth Singh Chouhan*,"A Data Repository of Leaf Images: Practice towards
+Plant Conservation with Plant Pathology",52,DL,"Mangifera indica (Mango) ,Alstonia Scholaris (Saptaparni), Psidium guajava (Guava) Aegle marmelos (Bael), Syzgium cumini (Jamun), Jatropha curcas L. (Jatropha), Pongamia Pinnata L. (Sukh chain), Ocimum basilicum (Basil), 10) Punica granatum L. (Pomegranate) 11) Citrus limon ",,IE,Data collection,NA,NA
+2020,"Jing Wei Tan , Siow-Wee Chang , Sameem Abdul-Kareem, Hwa Jen Yap , and Kien-Thai Yong","Deep Learning for Plant Species Classification
+Using Leaf Vein Morphometric",151,DL,"MalayaKew, Flavia and Swedish Leaf Dataset",,IE,"Support Vector Machine (SVM), Artificial Neural Network (ANN), k-Nearest-Neighbor (k-NN), Na€?ve-Bayes (NB), and CNN.",NA,various models were compared  with the dataset on which it was trained 
+2020,"Peter Thompson
+",Image identification of Protea species with attributes and subgenus scaling,,DL,iNaturalist: ,,IE,Attributes  with CNN-A and Subgenus scaling prior-full model ,NA,NA
+2020,"Mesut Tog?açar a,?
+, Burhan Ergen b
+, Zafer Cömert c","Classification of flower species by using features extracted from the
+intersection of feature selection methods in convolutional neural
+network models",49,DL,Flower dataset,ELS,,": ResNet-50, AlexNet, GoogLeNet and VGG-16 model.",the work can also be explored with different datasets using different  attention modules.,"they performed 3 experiment feature extraction using 4 models, features were selected as best to worst using  f-regression and MIC methods and best features were extracted which leads to less misclassification "
+2020,"SébastienVillon1,2*, David Mouillot1,5, Marc Chaumont2,3, Gérard Subsol2
+,
+Thomas Claverie1,4 & SébastienVilléger1","A new method to control error
+rates in automated species
+identifcation with deep learning
+algorithms",27,DL,Private ,N,,CNN,The experiment can also be explored with the use of compound images than Simple images.,A new approach of error rate detection was implemented. The error rate formulae were implemented for maintaining accuracy and decreasing loss.
+2020,"Bin Wang a,b,*
+, Yongsheng Gao b
+, Xiaohui Yuan c
+, Shengwu Xiong c
+,
+Xianzhong Feng d
+",From species to cultivar: Soybean cultivar recognition using joint leaf image patterns by multiscale sliding chord matching,17,DL,SoyCultivar200,ELS,,"Multiscale Sliding Chord Matching (MSCM) method, SVM",NA,NA
+2020,"Daniel Ward, Peyman Moghadam ","Scalable learning for bridging the species gap in image-based plant
+phenotyping",22,DL,Komatsuna dataset ,ELS,,"UPGen,",: only komatsuna and  capsicum leaves were used which can also be explored to other veggies leaves  .,focus was given on task of leaf instance segmentation to demonstrate the effectiveness of synthetic data in automating phenotypic measurements such as leaf area which is new approach .
+2020,"Kun Hua,?
+, Guy Colemanb
+, Shan Zengc
+, Zhiyong Wanga
+, Michael Walshb",Graph weeds net: A graph-based deep learning method for weed recognition,59,DL,DeepWeeds,ELS,,Graph Weeds Net(GWN),NA,NA
+2020,CHENGZHUAN YANG 1 AND HUI WE,"Plant Species Recognition Using
+Triangle-Distance Representation",19,DL,"Swedish, Smithsonian, Flavia, and ImageCLEF2012, MPEG-7 shape dataset ",,IE,triangle-distance representation (TDR),"The study could also be explored by providing cues for finding the relationship between petiole to apex, tooth margin edges, eccentricity etc.","They collected the leaves from Swedish, Smithsonian, Flavia, and ImageCLEF2012, MPEG-7 shape dataset."
+2020,"Shanwen Zhang a
+, Chuanlei Zhang b,?
+, Xuqi Wang a
+","Plant species recognition based on global–local maximum margin
+discriminant projection",10,DL,ICL datasets ,ELS,,: global–local maximum margin discriminant projection (GLMMDP)  ,Results do not show the difference between the intra class and inter class species for certain images.,They have used hybrid species of plants for RNA recognition and used ensemble learning for feature fusion and extraction. It is used for the mosses and algae.
+2020,"Haixi Zhanga
+, Zhenzhong Kuang b
+, Xianlin Penga
+, Guiqing Hea
+, Jinye Penga,?
+, Jianping Fan","Aggregating diverse deep attention networks for large-scale plant
+species identification",9,DL,Orchid2608,ELS,,an attention-based deep hierarchical multi-task learning (AHMTL),"The segmentation background was simple, and the leaf recognition in the natural state and the complex background required further study. More exploration is required to achieve a quantitative comparison between the plant leaf species systems and the leaf recognition algorithm.",NA
+2020,"Bambil D, Pistori H, Bao F, Weber V, Alves FM, Gonçalves EG, de Alencar Figueiredo LF, Abreu UG, Arruda R, Bortolotto IM","Plant species identifcation using color learning resources, shape, texture, through machine learning and artifcial neural networks",27,DL,Private ,SP,,"ML,SVM,RF,ANN, Adaboost ","In the proposed system, they have used a scanner, which increased the cost of the product.","Feature fusion strategies were used, which increased the Genuine Acceptance Rate (GAR) up to 7% when compared to the single feature extraction method."
+2020,Bisen D.,Deep convolutional neural network based plant species recognition through features of leaf,39,DL,swedish,SP,,CNN,"They had a low number of training samples, and it was used with much higher capacity, which decreased the performance for some of the fruits (sour fruits).","Considering the prediction time taken, the model performed very well. For example, it was 20 times faster than ResNet50 and 43 times faster than ResNet152. It could process 64 frames per second."
+2020,"Figueroa-Mata G, Mata-Montero E.",Using a Convolutional Siamese Network for Image-Based Plant Species Identification with Small Datasets,28,DL,"flavia,CRLEAVES dataset ",O,,convolutional Siamese network (CSN),"Only 320 random samples were selected for the training of the model.
+
+",NA
+2020,Huixian J.,The Analysis of Plants Image Recognition Based on Deep Learning and Artificial Neural Network,55,DL,Private ,IE,,"KNN-based neighbourhood classification, Kohonen network,SVM, BP neural network .","The leaf recognition algorithm is still exploratory, and there are no unified evaluation criteria; and thus, it is difficult to achieve quantitative comparisons between the plant leaf species systems. The leaf recognition algorithm needs to be further developed.","They have used several algorithms for image processing, which improved the results."
+2021,Chengzhuan Yang,Plant leaf recognition by integrating shape and texture features,46,DL,,ELS,,"multiscale triangle descriptor,LBP-HF)",The feature design could not be learned automatically and considered only the feature and shape parameters.,"They collected the leaves from Swedish, Smithsonian, Flavia, and ImageCLEF2012, MPEG-7 shape dataset."
+2021,"Xiaojun Jin, Jun Che, Yong Chen",Weed Identification using Deep Learning and Image Processing in Vegetable Plantation,92,DL,Private ,IE,,Genetic Algorithms (GAs),"The matcher algorithm increased its accuracy after 2 stages and on the plant species, particularly",They got a hike of 4% on the calculated results as compared to other methods with the help of a color histogram.
+2021,"Yujing Liu a*, Renchuan Hub , Songsong Shen a, Zheng Zhang a, Jing Zhang a, Xiaoling Song a , Sheng Qiang a*","Plant diversity in herbal tea and its traditional knowledge in Qingtian County, Zhejiang Province, China",7,DL,Private ,ELS,,deep cnn,The work could be extended by applying the classification of the unsupervised remote sensing images and image classification through convolutional neural networks,"The performance of the D-Leaf, MalayaKew, Flavia, and Swedish datasets was validated properly.  "
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,IEEE,IE,,,
+,,,,,,ELEsivier ,ELS,,,
+,,,,,,Springer ,SP,,,
+,,,,,,others ,o,,,
+,,,,,,hindavi,H,,,
+,,,,,,Sci. direct ,SD,,,
